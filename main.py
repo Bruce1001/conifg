@@ -1,10 +1,7 @@
-import sys
-import os
+import myname
 
-
-sys.path.append('/Users/bruce/Library/Colors')
-import config
-print config.DATABASE_CONFIG['DATABASE']
+name = myname.get_name()
+print("hello {}".format(name))
 
 # def main():
 # #     print config.DATABASE_CONFIG['host']
